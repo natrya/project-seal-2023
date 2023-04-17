@@ -23,3 +23,6 @@ Route::get('/login', function () {
 Route::get('/peserta', function () {
     return view('peserta');
 });
+Route::get('/juri', function () {
+    return view('juri');
+});
